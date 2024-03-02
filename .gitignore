@@ -1,0 +1,42 @@
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# FastAPI auto-generated files
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+
+# Tkinter .pyc files
+frontend/__pycache__/
+frontend/*.pyc
+frontend/*.pyo
+
+# IDE settings
+.idea/
+.vscode/
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# User-specific files
+*.rsap
+*.pem
+*.key
+
+# Environment variables
+.env
